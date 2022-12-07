@@ -1,0 +1,59 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@900&family=Montserrat:ital,wght@1,300&display=swap');
+
+
+* {
+	margin: 0px;
+	padding: 0px;
+	font-family: 'Montserrat', sans-serif;
+}
+
+body {
+	background-color: #0D125E;
+	color: #F7D754;
+
+}
+
+
+header { 
+	padding-top: 65px;
+	background-image: linear-gradient(to bottom, #545FF7, #2932AB, #0D125E);
+
+}
+
+header > h1 {
+	font-family: 'Cinzel', serif;
+	color: #F7D754;
+	font-size: 3em;
+
+}
+header > p {
+	text-indent: 30px;
+
+}
+
+nav {
+	padding: 12px;
+	padding-left 0;
+}
+
+nav > a {
+	color: #F7D754;
+	padding: 10px;
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 1.3em;
+	padding-left: 0px;
+	font-family: 'Montserrat', sans-serif;
+
+}
+
+nav a:hover {
+	color: #545FF7;
+	background-color: #F7D754;
+	border-radius: 15px;
+	text-decoration: underline;
+	font-family: 'Montserrat', sans-serif;
+
+}
